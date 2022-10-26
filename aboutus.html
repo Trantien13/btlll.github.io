@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./aboutus.css">
+    <link rel="stylesheet" href="./res.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>ABOUT US</title>
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+  <header class="header ">
+    <!-- Navigation -->
+    <a href="index.html" class="logo" title="J Milk Tea">
+      <img src="./images/logo.png" alt="">
+    </a>
+    <nav class="navbar js-headerss">
+      <ul id="menu">
+        <li class="menu-item-object-page menu-item">
+          <a href="index.html" aria-current="page">Home page</a>
+        </li>
+        <li class="menu-item-object-page menu-item">
+          <a href="aboutus.html">About us</a>
+        </li>
+        <li class="menu-item-object-page menu-item">
+          <a href="menu.html">Menu</a>
+          <ul class="sub-menu">
+            <li class="menu-item-inner">
+              <a href="./Menu/tea.html">Tea</a>
+            </li>
+            <li class="menu-item-inner">
+              <a href="./Menu/MenuCoffe.html">Coffee</a>
+            </li>
+            <li class="menu-item-inner">
+              <a href="./Menu/MenuCake.html">Cake</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item-object-page menu-item">
+          <a href="newpromotion.html">New &amp; Promotions</a>
+        </li>
+        <li class="menu-item-object-page menu-item">
+          <a href="contact.html">Contact</a>
+        </li>
+        <li class="trans-lang-menu menu-item">
+          <a title="Tiếng Việt" href="#">
+            <img src="./images/VN.png" alt="">
+          </a>
+          <ul class="sub-menu">
+            <li class="trans-lang-menu">
+              <a title="Tiếng Việt" href="">
+                <img src="./images/VN.png" alt="Tiếng Việt">&nbsp;Tiếng Việt </a>
+            </li>
+            <li class="trans-lang-menu">
+              <a title="English" href="">
+                <img src="./images/English.png" alt="English">&nbsp;English </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="search_menu js-nav-menu">
+      <i class="ti-menu"></i>
+    </div>
+    
+    <!-- <div class="icons">
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+    </div> -->
+    <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="Search here ...">
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="./images/tsdauu_preview_rev_1.png" alt="Trà sữa dâu">
+        <div class="content">
+          <h4>Trà sữa dâu</h4>
+          <span class="price">35.000 vnd/-</span>
+          <span class="quantity">Qty : 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="./images/CupcakePink.png" alt="Bánh kem hoa quả">
+        <div class="content">
+          <h4>Bánh kem hoa quả</h4>
+          <span class="price">40.000 vnd/-</span>
+          <span class="quantity">Qty : 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="./images/tradaocamsa_preview_rev_1.png" alt="Trà đào cam xả">
+        <div class="content">
+          <h4>Trà đào cam sả</h4>
+          <span class="price">40.000 vnd/-</span>
+          <span class="quantity">Qty : 1</span>
+        </div>
+      </div>
+      <div class="total">Total : 115.000 vnd/-</div>
+      <a href="#" class="btn">Check out</a>
+    </div>
+    <form action="" class="login-form">
+      <h4>Login now</h4>
+      <input type="email" placeholder="Your email" class="box">
+      <input type="password" placeholder="Your password" class="box">
+      <p>Forget password? <a href="">Click here</a>
+      </p>
+      <p>Don't have account? <a href="">Creat now</a>
+      </p>
+      <input type="submit" value="login now" class="btn">
+    </form>
+  </header>
+  <!-- slide -->
+    <div class="slide">
+        <div class="slide-left">
+            <div class="name">ABOUT US</div>
+            <h1>A CUP OF COFFEE <br>
+                AND EXPLORE
+                OUR STORY.</h1>
+        </div>
+        <div class="slide-right">
+            <img src="./images/Picture3.jpg" alt="img">
+        </div>
+    </div>
+    <section class="section-slide">
+        <div class="section-content left">
+            <img  id="img1" src="./images/contentimg5.jpg" onclick="changeimage1()" alt="">
+        </div>
+        <div class="section-content mid">
+            <h1>LEARN ABOUT <br>OUR STORY___ </h1>
+            <p>As a start-up established by enthusiastic and passionate young people with the love for
+                drinks, students of
+                UTC held their opening ceremony and launched Coffee Corner with the brand 10.Net Coffee at
+                workshop 03 Cau
+                Giay, Lang Thuong, Ha Noi on October 24th, 2022. Starting from their limitless hobby and
+                passion for coffee,
+                after learning and starting business with the project Cafe with love Store, the team luckily
+                got the
+                cooperative investment, and then 10.Net was born. The first showroom of 10.Net is located at
+                No. 03 Cau
+                Giay, Lang Thuong, District Dong Da,Ha Noi. This is a small showroom with tropical-theme
+                design. Customers
+                may enjoy cups of coffee right there or take away, or simply visit the coffee shop to learn
+                more about
+                coffee and share their passion with the team of passionate young people there. In addition,
+                with the opening
+                of 10.Net Corner at UTC , workers and staffs working at class CNTT1 UTC K62 have one more
+                trusted place to
+                enjoy coffee, chat and relax every morning or in the break. With the objective to make “your
+                personalized
+                coffee”, 10.Net will surely bring a new breath for Vietnamese coffee market. We believes
+                that, with passion
+                and constant learning of the team, 10.Net is promised to develop more, creating better kinds
+                of coffee with
+                high quality and becoming a famous coffee brand in Vietnam.</p>
+            <div class="sign">
+                <img src="./images/sign1.png" alt="">
+            </div>
+        </div>
+        <div class="section-content right">
+            <img id="img3" src="./images/contentimg6.jpg" onclick="changeimage3()" alt="">
+        </div>
+    </section>
+    <section class="section-item">
+        <h1>core value</h1>
+        <ul>
+            <li>
+                <h1>1.HIGH QUALITY</h1>
+                <img src="./images/icon1.png" alt="img">
+                <p>Safe, hygienic and delicious. The use of safe, natural and hygienic ingredients is 10.Net's top priority. The excellent taste of the drinks is the next important goal that we want to aim for.</p>
+            </li>
+            <li>
+                <h1>2. GOOD SERVICE</h1>
+                <img src="./images/icon2.png" alt="img">
+                <p>10.Net wishes to best satisfy customers with professional and friendly service, always listening to customers' contributions.</p>
+            </li>
+            <li>
+                <h1>3.RELIABLE BRAND</h1>
+                <img src="./images/icon3.png" alt="img">
+                <p>Based on two core foundations of Quality and Service, 10.Net always strives to build and maintain a reliable brand image in the eyes of customers.</p>
+            </li>
+        </ul>
+    </section>
+    <div id="invitation">
+        <div class="invitation-content">
+            <div class="invitation-img">
+                <img src="./images/inv1.jpg" alt="" class="invitation_img-img"/>
+            </div>
+            <div class="invitation-text">
+                <h1 class="invitation-title">COME HERE!<br>TELL YOUR STORY</h1>
+                <div class="invitation-home"></div>
+                <p class="text-3"><i class="icon fa-sharp fa-solid fa-clock"></i>Open: 7am - 22pm</p>
+                <p class="text-4">
+                  <i class="icon fa-solid fa-house"></i>Address: UTC, 03 Cau Giay street, Dong Da district, Ha Noi
+                </p>
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+      <section class="footer">
+        <div class="box-container">
+          <div class="box box1">
+            <a href="index.html" class="logo" title="J Milk Tea">
+              <img src="./images/logo.png" alt="">
+            </a>
+            <p>Make your life sweater!</p>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+          </div>
+          <div class="box box2">
+            <h3>Contact info</h3>
+            <a href="#" class="links">
+              <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links">
+              <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links">
+              <i class="fas fa-envelope"></i> pqtealoveyou@gmail.com </a>
+            <a href="#" class="links">
+              <i class="fas fa-map-marker-alt"></i> 3 Cau Giay street, Lang Thuong, Dong Da, Ha Noi </a>
+          </div>
+          <div class="box-add">
+            <p>Make your life sweater!</p>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+          </div>
+          <div class="box box3">
+            <h3>Quick links</h3>
+            <a href="index.html" class="links">
+              <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="aboutus.html" class="links">
+              <i class="fas fa-arrow-right"></i> About us </a>
+            <a href="menu.html" class="links">
+              <i class="fas fa-arrow-right"></i> Menu </a>
+            <a href="newpromotion.html" class="links">
+              <i class="fas fa-arrow-right"></i> New &amp Promotions </a>
+            <a href="contact.html" class="links">
+              <i class="fas fa-arrow-right"></i> Contact </a>
+          </div>
+          <div class="box box4">
+            <h3>Newsletter</h3>
+            <p>Subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="./images/payment.png" class="payment-img" alt="">
+          </div>
+        </div>
+        <div class="credit"> Created by <span> Team 10 </span> | All rights reserved </div>
+      </section>
+    </footer>
+    <script>
+        var index1=1;
+        changeimage1 = function(){
+            var imgs = ["./images/contentimg5.jpg","./images/contentimg1.jpg","./images/contentimg2.jpg"];
+            document.getElementById('img1').src = imgs[index1];
+            index1++;
+            if(index1==3){
+                index1=0;
+            }
+        }
+        setInterval(changeimage1,3000);
+    </script>
+      <script>
+        var index2=1;
+        changeimage3 = function(){
+            var imgs = ["./images/contentimg6.jpg","./images/contentimg3.jpg","./images/contentimg4.jpg"];
+            document.getElementById('img3').src = imgs[index2];
+            index2++;
+            if(index2==3){
+                index2=0;
+            }
+        }
+        setInterval(changeimage3,3000);
+    </script>
+    <script>
+      const Openmenu=document.querySelector('.js-nav-menu')
+      const Headerss=document.querySelector('.js-headerss')
+      const Headershight=Headerss.clientHeight;
+      Openmenu.onclick=function(){
+          const isClosed= Headerss.clientHeight===Headershight;
+          if(isClosed){
+            Headerss.classList.add('open')
+            Headerss.style.height="100%";
+          }else{
+            Headerss.classList.remove('open')
+            Headerss.style.height='0px';
+          }
+      }
+      </script>
+</body>
+</html>
